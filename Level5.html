@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML forms</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <h4>Registration form</h4>
+        <!-- Form in html
+        Forms are used to collect data from the user 
+        ex: sign up/login/help requests/contact me 
+        <form>
+            form content
+        </form>     -->
+        
+        <!-- Action in form 
+        Action attribute is used to define what action needs to be performed when a form is submitted 
+        EX:<form action="/action.js"></form>   HERE "/action.js" is backend file -->
+        
+        <form action="/action.js">
+7
+        <!-- 1.Form element: Input  
+         ex:<input type="text" placeholder="Enter Name" -->
+            <input type="text" placeholder="User Name">  <br> <br>
+            <input type="password" placeholder="Password"> <br>
+          <h5>Select your class
+        <!-- label --> <br>
+         <label for="101">
+             <input type="radio" value="class XI" name="class" id="101">class XI <br>
+         </label>   
+
+         <label for="102">
+             <input type="radio" value="class XII" name="class" id="102">class XII 
+         </label><br>
+        </h5>
+         
+
+        <h5>Select Fav Subject </h5>
+         
+        <!-- checkbox -->
+          <label >
+            <input type="checkbox" value="math" name="Subject" >math
+          </label>
+          
+          <label >
+            <input type="checkbox" value="phy" name="Subject" >phy
+          </label>
+
+          <label>
+            <input type="checkbox" value="Chemistry" name="Subject" >Chemistry
+          </label>
+
+          <label>
+            <input type="checkbox" value="CS" name="Subject" >CS
+          </label>
+
+          <br>
+    
+
+           <!-- select: to make use of drop down we will use select -->
+            <h4>Select your city</h4>
+            <select name="city">
+             <option value="Delhi">Delhi</option>
+             <option value="Banglore">Banglore</option>
+             <option value="Mumbai">Mumbai</option>
+             <option value="Kolkata">Kolkata</option>
+             <option value="Hydrebad">Hydrebad</option>
+
+             
+           </select>
+           <br><br>
+
+     
+        <!-- texarea -->
+          <textarea name="feedback" id="101" placeholder="Please give your valuable feedback"></textarea> <br><br>
+
+         <input type="submit" value="submit">
+         
+        </form>
+
+        <br>
+
+
+        <!-- iframe Tag:  it used to show website inside website -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UmnCZ7-9yDY?si=NJNGKrsx9FB4g5NA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <br><br>
+
+        <!-- video Tag
+        <video src=""></video> -->
+        <video src=""></video>
+      
+     
+
+
+
+    </main>
+    <footer></footer>       
+</body>
+</html>
